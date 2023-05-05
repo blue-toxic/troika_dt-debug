@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/motorola/exynos9610-common
+DEVICE_PATH := device/motorola/troika
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/motorola/exynos9610-common/exynos9610-common-vendor.mk)
+$(call inherit-product, vendor/motorola/troika/troika-vendor.mk)
 
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
